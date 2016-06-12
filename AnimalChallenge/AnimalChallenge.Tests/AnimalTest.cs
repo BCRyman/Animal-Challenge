@@ -8,6 +8,17 @@ namespace AnimalChallenge.Tests
     public class AnimalTest
     {
         [Test]
+        public void SetupTest()
+        {
+            //Arrange
+            int i = 1;
+            //Act
+            i += 1;
+            //Assert
+            Assert.AreEqual(i, 2);
+        }
+
+        [Test]
         public void Create_AnimalShouldBeAlive()
         {
             //Arrange

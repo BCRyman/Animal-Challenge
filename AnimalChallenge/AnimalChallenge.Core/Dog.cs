@@ -30,11 +30,11 @@ namespace AnimalChallenge.Core
         {
             if (food.foodType == FoodType.Dog)
             {
-                AlterEnergy(3);
+                AlterEnergy(6);
             }
             else
             {
-                AlterEnergy(-4);
+                AlterEnergy(-8);
             }
         }
 
